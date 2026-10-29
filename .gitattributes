@@ -1,0 +1,10 @@
+# Project-specific overrides
+# Text file normalization
+# Default behavior
+node_modules/* linguist-vendored
+*.jpeg binary
+*.htm linguist-vendored
+*.svg text
+
+src/**/*.tsx linguist-detectable
+*.min.css linguist-generated
